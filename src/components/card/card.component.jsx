@@ -13,6 +13,7 @@ class Card extends Component {
                 <h2>{name}</h2>
                 <p>{monster.email}</p>
             </div>
+            
             )
     }
 
