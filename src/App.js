@@ -13,6 +13,7 @@ const App = () => {
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters,setFilteredMonsters] = useState(monsters);
 
+  console.log("Rendered");
   const onSearchChange = (event)=> {
         const searchFieldString = event.target.value.toLocaleLowerCase();
         setSearchField(searchFieldString);
